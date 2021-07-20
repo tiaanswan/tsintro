@@ -1,8 +1,9 @@
-var num1 = 115;
-var num2 = 15;
+const person = {
+  name: 'Tiaan',
+  age: 36,
+  hobbies: ['Sports', 'Cooking']
+};
 
-function add (num1: number, num2: number) {
-  return num1 + num2;
-}
+console.log(person.name.toLowerCase());
 
-console.log (add(num1, num2));
+// 19 - Working with Tuples
