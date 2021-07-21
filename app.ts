@@ -1,9 +1,13 @@
+// 20 - "Enum type"
+
+enum Role {ADMIN, USER, READ_ONLY};
+
 const person = {
   name: 'Tiaan',
   age: 36,
-  hobbies: ['Sports', 'Cooking']
+  hobbies: ['Sports', 'Cooking'],
+  role: Role.USER
 };
 
 console.log(person.name.toLowerCase());
-
-// 19 - Working with Tuples
+console.log(person.role);
