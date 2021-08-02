@@ -1,6 +1,6 @@
 // 20 - "Enum type"
 
-enum Role {ADMIN, USER, READ_ONLY};
+enum Role { ADMIN, USER, READ_ONLY };
 
 const person = {
   name: 'Tiaan',
@@ -11,3 +11,7 @@ const person = {
 
 console.log(person.name.toLowerCase());
 console.log(person.role);
+
+for (const hobby of person.hobbies) {
+  console.log(hobby);
+}
