@@ -1,4 +1,4 @@
-// 20 - "Enum type"
+// 23 - "union type"
 
 enum Role { ADMIN, USER, READ_ONLY };
 
