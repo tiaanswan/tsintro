@@ -1,4 +1,4 @@
-// 20 - "Enum type"
+// 23 - "union type"
 var Role;
 (function (Role) {
     Role[Role["ADMIN"] = 0] = "ADMIN";
